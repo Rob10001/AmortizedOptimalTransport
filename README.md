@@ -2,6 +2,8 @@
 
 **Goal:** Given two images A (source) and B (target), map the color palette of B onto A using entropic Optimal Transport (OT) solved by the Sinkhorn algorithm. Then, learn a neural network that predicts a warm-start to the Sinkhorn algorithm so that it can converge in fewer iterations.  
 
+See Notebook "5. Demo" for visual examples.
+
 ## Helpful Readings
 
 For additional context, [here](https://amsword.medium.com/a-simple-introduction-on-sinkhorn-distances-d01a4ef4f085) is a reading I found informative.
